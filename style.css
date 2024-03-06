@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter',sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    color: var(--font-color);
+    background: var(--bg-color-off-black);
+}
+img{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+p{
+    font-size: 14px;
+    margin-top: 1em;
+    margin-left: 1.9em;
+    color: yellow;
+}
+h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+
+:root{
+    --bg-color-off-black: hsl(0, 0%, 8%);
+    --font-color: hsl(0, 0%, 100%);
+    --bg-color-for-card: hsl(0, 0%, 20%); 
+}
+
+.card{
+    margin-top: 5em;
+    background: var(--bg-color-for-card);
+    width: 30em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+}
+
+.aline{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+.links{
+    margin: 1em;
+}
+.jus{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+-webkit-backdrop-filter: blur(7.1px);
+backdrop-filter: blur(7.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.jus:hover,a:hover{
+    background: yellowgreen;
+    color: black;
+}
+    
+
+
+    
+
